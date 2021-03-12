@@ -39,6 +39,25 @@
 
       saludar("Kenai", 7);
 
+      //funcionDeclarada();
+      //Funciones Declaradas VS Funciones Expresadas
+      function funcionDeclarada(){
+        console.log("Esto es una función declarada, puede invocarse en cualquier parte de nuestro código, incluso antes de que la función sea declarada");
+
+      }
+
+      funcionDeclarada();
+      //funcionExpresada();
+      //Función anónima
+      const funcionExpresada = function(){
+        console.log("Esto es una función expresada, es decir, una función que se le ha asignado como valor a una variable, si invocamos esta función antes de su definición JS nos dirá...");
+
+      }
+
+      funcionExpresada();
+      
+
+
     </script>
 </body>
 
